@@ -249,7 +249,7 @@ body {
 }
 
 .figure__balterio {
-  background-image: url("img/catalog2.svg");
+  background-image: url("img/catalog1.svg");
   width: 290px;
   height: 310px;
   margin-left: 55px;
@@ -369,6 +369,13 @@ body {
 
 .pagination li:not(:last-child)::after {
   content: "-";
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 1000px;
 }
 
 .our-catalogs__heading {
@@ -547,13 +554,6 @@ body {
 
 .moscow__map {
   position: relative;
-}
-
-.moscow__map img {
-  display: block;
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
 }
 
 .moscow__map__gps {
@@ -1748,6 +1748,35 @@ body {
   .contacts__partners::before {
     width: 5px;
     height: 5px;
+  }
+  .where-buy__heading {
+    width: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 64px;
+    margin-bottom: 21px;
+  }
+  .where-buy__info {
+    max-width: 300px;
+  }
+  .where-buy__map iframe {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .where-buy__map__gps {
+    display: none;
+  }
+  .where-buy .city-select {
+    margin: 30px auto;
+    max-width: 300px;
+    font-size: 12px;
+    height: 35px;
+  }
+  .where-buy .city-select option {
+    font-size: 12px;
+  }
+  iframe {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
