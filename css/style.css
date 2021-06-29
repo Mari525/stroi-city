@@ -16,7 +16,6 @@ body {
   text-align: center;
   color: #16151f;
   background-color: #696e8f;
-  margin-top: 60px;
   padding: 20px;
 }
 
@@ -375,7 +374,7 @@ iframe {
   display: block;
   margin: 0 auto;
   height: 300px;
-  width: 1000px;
+  width: 100%;
 }
 
 .our-catalogs__heading {
@@ -718,7 +717,7 @@ iframe {
 }
 
 .footer-secondary__text {
-  margin: auto;
+  margin: 20px auto;
   color: #7B7E93;
   text-align: center;
   font-size: 24px;
